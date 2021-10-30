@@ -1,0 +1,17 @@
+.friends {
+	margin-bottom: 20px;
+}
+
+.friends-list__header,
+.requests-list__header {
+	margin-bottom: 15px;
+}
+
+.friends-item,
+.requests-item {
+	display: flex;
+	margin-bottom: 8px;
+	&__username {
+		margin-right: auto;
+	}
+}

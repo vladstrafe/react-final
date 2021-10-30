@@ -1,0 +1,11 @@
+.pagination {
+	display: flex;
+	justify-content: center;
+	&-item {
+		border: 1px solid silver;
+		&__link {
+			display: block;
+			padding: 10px;
+		}
+	}
+}

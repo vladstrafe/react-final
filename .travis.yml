@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+- '10'
+before_install:
+- npm install -g @angular/cli
+install: npm install
+branches:
+  only:
+  - master
+deploy:
+  provider: heroku
+  app: react-final
+  api_key:
+    secure: HfAgMlsL0CMiY+/O/O+rFCTY5ISoOnDOGbEVjG3bIgDCams5KpJTNfCp2seJnOuEuhSLjqBx7Oz5fqnErNiEKl1CWGsKBqms7+ytuXFdBZetSc72e7aY84V6+x7t25sLe4d8qTJgwF7Inkld8DSYyVMACqW8XA+DpJpl6GhlS3AA7x9vIobMdUStLTBchkQBRmmooD04Wh8DyA7Nk9y33xDm6sFJ6jklCdquprobego3xf1tjwX71fsj/RAdaE4b/wayOvsLo6WVpSWiHhayE9+WpqkNIcn23KeAyv6ZmekSh9l6vJwNrDVBgcwITWhkWH68nRFa2IZxSuB0VAiO6towCF0ctx8dS5oc3tVlewb2uNYafWVnpt/Qvjkw/C/6YocRrUpwtYXHZF39uJh/WkND48sOASkLXFQPUGT3iOZ7ja7UNEWloR1oMtIQY4hgJ5Cxtc8CWEe72mlunlIT5FJIYR+iAUtoPfO59YinYKEn4HrYRJ5262HrBQNZ2USjJOCrnjs31yU0TZDWME44LhsxNwvBM1ef2p4Gn27UakyK4rruJnAPzSebGp75YlrVbIVlP0I3JTNjbwBh0LBFe8i5LrSMEKhTdxmiO93nLZpWYQCFS7DGt08CJHkXpc7yFoIwjco2/FVeRigqFl0dVkeJP75fisC6VmAJw3/DCfo=

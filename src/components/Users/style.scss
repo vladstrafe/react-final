@@ -1,0 +1,14 @@
+.search {
+	padding: 10px;
+	margin-bottom: 30px;
+}
+.users {
+	width: 50%;
+	margin: 0 auto;
+	&-item {
+		display: flex;
+		justify-content: space-between;
+		padding: 10px;
+		border-bottom: 1px solid grey;
+	}
+}

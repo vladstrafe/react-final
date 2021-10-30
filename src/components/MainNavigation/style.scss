@@ -1,0 +1,12 @@
+.nav-wrap {
+	margin-bottom: 20px;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+	&-item {
+		flex-shrink: 1;
+		padding: 5px 15px;
+	}
+}
